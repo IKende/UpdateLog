@@ -1,7 +1,7 @@
 ## Beetlex相关组件功能计划/更新日志
 
 - **?** `BeetleX`
-    -  AwaiterClient对象添加`Task<T> Receive<T>`方法。
+    -  AwaiterClient对象添加`Task<T> Receive<T>`和`Task<T> ReceiveFrom<T>`方法。
 ---
 
 - **?** `BeetleX.FastHttpApi.EFCore.Extension`
