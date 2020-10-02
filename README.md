@@ -2,6 +2,7 @@
 
 - **?** `BeetleX`
     -  AwaiterClient对象添加`Task<T> Receive<T>`和`Task<T> ReceiveFrom<T>`方法。
+    -  AsyncTcpClient对象增加索引器，用于自定义信息存储。
 ---
 
 - **?** `BeetleX.FastHttpApi.EFCore.Extension`
