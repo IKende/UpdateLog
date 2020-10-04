@@ -1,10 +1,6 @@
 ## Beetlex相关组件功能计划/更新日志
 
-- **?** `BeetleX`
-    -  AwaiterClient对象添加`Task<T> Receive<T>`和`Task<T> ReceiveFrom<T>`方法。
-    -  AsyncTcpClient对象增加索引器，用于自定义信息存储。
-    -  增加`IMessageSubmitHandler`接口，用于描述消息写入到流后触发的行为
----
+
 
 - **?** `BeetleX.FastHttpApi.EFCore.Extension`
     - 支持直接在WebApi方法中定义efcore dbcontext参数，并可标记方法是否使用事务。
@@ -12,6 +8,11 @@
 
 - **?** `BeetleX.Bumblebee`
     - 增加总入口的RPS请求限制控制
+---
+- **2020-10-4** `BeetleX 1.5.5.3`
+    -  AwaiterClient对象添加`Task<T> Receive<T>`和`Task<T> ReceiveFrom<T>`方法。
+    -  AsyncTcpClient对象增加索引器，用于自定义信息存储。
+    -  增加`IMessageSubmitHandler`接口，用于描述消息写入到流后触发的行为
 ---
 
 - **2020-9-28** `BeetleX 1.5.4.6`
