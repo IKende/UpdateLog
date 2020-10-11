@@ -1,6 +1,7 @@
 ## Beetlex相关组件功能计划/更新日志
 
-
+- **?** `BeetleX.FastHttpApi`
+    - [bug]`BinaryResult`处理存在问题!
 
 - **?** `BeetleX.FastHttpApi.EFCore.Extension`
     - 支持直接在WebApi方法中定义efcore dbcontext参数，并可标记方法是否使用事务。
