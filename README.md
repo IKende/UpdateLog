@@ -3,7 +3,7 @@
 - **?** `BeetleX.FastHttpApi`
     - [bug]`BinaryResult`处理存在问题!
     - 支持返回`return (new ArraySegment<byte>(data, 0, data.Length), "image/jpeg");`
-
+    - 控制器处理浏览器用websocket发大数据分帧问题
 - **?** `BeetleX.FastHttpApi.EFCore.Extension`
     - 支持直接在WebApi方法中定义efcore dbcontext参数，并可标记方法是否使用事务。
 ---
