@@ -1,16 +1,17 @@
 ## Beetlex相关组件功能计划/更新日志
 
-- **?** `BeetleX.FastHttpApi`
-    - [bug]`BinaryResult`处理存在问题!
-    - 支持返回`return (new ArraySegment<byte>(data, 0, data.Length), "image/jpeg");`
-    - 控制器处理浏览器用websocket发大数据分帧问题
-    - 增加会话的http请求并发限制
 - **?** `BeetleX.FastHttpApi.EFCore.Extension`
     - 支持直接在WebApi方法中定义efcore dbcontext参数，并可标记方法是否使用事务。
 - **?**`BeetleX.FastHttpApi.Cached`
     - 控制器缓存插件
 - **?** `BeetleX.Bumblebee`
     - 增加总入口的RPS请求限制控制
+---
+- **2020-10-15** `BeetleX.FastHttpApi 1.8.8.4`
+    - [bug]`BinaryResult`处理存在问题!
+    - 支持返回`return (new ArraySegment<byte>(data, 0, data.Length), "image/jpeg");`
+    - 控制器处理浏览器用websocket发大数据分帧问题
+    - 增加会话的http请求并发限制
 ---
 - **2020-10-4** `BeetleX 1.5.5.3`
     -  AwaiterClient对象添加`Task<T> Receive<T>`和`Task<T> ReceiveFrom<T>`方法。
