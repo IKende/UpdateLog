@@ -1,4 +1,6 @@
 ## Beetlex相关组件功能计划/更新日志
+- **?** `BeetleX.FastHttpApi.`
+    - 支持Actor控制器，用于支持高并发业务场景需要。
 
 - **?** `BeetleX.FastHttpApi.EFCore.Extension`
     - 支持直接在WebApi方法中定义efcore dbcontext参数，并可标记方法是否使用事务。
