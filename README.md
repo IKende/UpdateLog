@@ -1,13 +1,20 @@
 ## Beetlex相关组件功能计划/更新日志
-- **?** `BeetleX.Tracks.`
-    - 用于定义代码执行跟踪链处理。
-
-- **?** `BeetleX.FastHttpApi.EFCore.Extension`
-    - 支持直接在WebApi方法中定义efcore dbcontext参数，并可标记方法是否使用事务。
+- **?** `BeetleXFastHttpApi`
+    - 添加代码执行链跟踪
 - **?**`BeetleX.FastHttpApi.Cached`
     - 控制器缓存插件
 - **?** `BeetleX.Bumblebee`
     - 增加总入口的RPS请求限制控制
+---
+- **2020-10-24** `BeetleX.EFCore.Extension 0.9.0`
+    - 支持对象转义自动执行
+    - 支持Listasync方法
+---
+- **2020-10-22** `BeetleX.Tracks 0.7.5`
+    - 用于定义代码执行跟踪链处理。
+---
+- **2020-10-19** `BeetleX.FastHttpApi.EFCore.Extension 0.7.0`
+    - 支持直接在WebApi方法中定义efcore dbcontext参数，并可标记方法是否使用事务。
 ---
 - **2020-10-15** `BeetleX.FastHttpApi 1.8.8.4`
     - [bug]`BinaryResult`处理存在问题!
