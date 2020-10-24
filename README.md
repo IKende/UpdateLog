@@ -1,10 +1,12 @@
 ## Beetlex相关组件功能计划/更新日志
-- **?** `BeetleXFastHttpApi`
-    - 添加代码执行链跟踪
 - **?**`BeetleX.FastHttpApi.Cached`
     - 控制器缓存插件
 - **?** `BeetleX.Bumblebee`
     - 增加总入口的RPS请求限制控制
+---
+- **2020-10-24** `BeetleX.FastHttpApi 1.8.9.5`
+    - 添加代码执行链跟踪
+    - 支持websockete控制器自定义响应内容
 ---
 - **2020-10-24** `BeetleX.EFCore.Extension 0.9.0`
     - 支持对象转义自动执行
