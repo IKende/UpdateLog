@@ -1,8 +1,12 @@
 ## Beetlex相关组件功能计划/更新日志
-- **?**`BeetleX.FastHttpApi.Cached`
-    - 控制器缓存插件
-- **?** `BeetleX.Bumblebee`
-    - 增加总入口的RPS请求限制控制
+
+---
+- **2020-10-28** `BeetleX.WebFamily 0.7.2`
+    - Server : Webapi+Websocket+JWT+EFCore+Redis
+    - web    : Axios+Vue+ElementUI
+---
+- **2020-10-25** `BeetleX.FastHttpApi.Cached 0.6.2`
+    - 提供缓存拦截用于配置控制器返回值缓存
 ---
 - **2020-10-24** `BeetleX.FastHttpApi 1.8.9.5`
     - 添加代码执行链跟踪
@@ -21,7 +25,7 @@
 - **2020-10-15** `BeetleX.FastHttpApi 1.8.8.4`
     - [bug]`BinaryResult`处理存在问题!
     - 支持返回`return (new ArraySegment<byte>(data, 0, data.Length), "image/jpeg");`
-    - 控制器处理浏览器用websocket发大数据分帧问题
+    - 控制器处理浏览器用websocket发送大数据分帧问题
     - 增加会话的http请求并发限制
 ---
 - **2020-10-4** `BeetleX 1.5.5.3`
